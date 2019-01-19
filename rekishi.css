@@ -5,7 +5,7 @@
 html, body {
   height: 100%;
   background-color: #FFFDEB;
-  
+
   ;
 }
 
@@ -21,7 +21,7 @@ h1 {
 }
 
 .photo {
-  padding: 20px; /* 内側の余白 */
+  padding: 5px; /* 内側の余白 */
   background-color: #ffffff; /* 背景の色 */
   border-radius: 12px; /* 角の丸み */
   margin: 0 auto 32px; /* 外側の余白 */
@@ -68,7 +68,7 @@ ul li{
 li img{
 float:right;
 dispay: inline-block;
-vertical-align: middle; 
+vertical-align: middle;
     padding: 10px;
 }
 
