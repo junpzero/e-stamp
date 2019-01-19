@@ -1,0 +1,68 @@
+*  {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #FFFDEB;
+}
+
+body {
+   padding: 32px; /* 内側の余白 */
+}
+
+h1 {
+  text-align: center; /* 文字を真ん中にそろえる */
+  font-family: 'Kosugi Maru', sans-serif;
+
+  color: #ff6fac;
+}
+
+.photo {
+  padding: 20px; /* 内側の余白 */
+  background-color: #ffffff; /* 背景の色 */
+  border-radius: 12px; /* 角の丸み */
+  margin: 0 auto 32px; /* 外側の余白 */
+  max-width: 450px; /* 横幅 */
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-item {
+  padding: 5px; /* 内側の余白 */
+  text-align: center; /* 文字を真ん中にそろおえる */
+}
+
+img {
+  max-width: 100%; /* 画像横幅をボックスに合わせる*/
+  border-radius: 5px; /* 角の丸み */
+}
+
+h3 i {
+  color: #ff6fac; /* 文字の色 */
+}
+
+h3{
+    padding-bottom: 20px;
+    margin-bottom: 0;
+     font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;
+}
+
+h2{
+    margin-top: 0;
+}
+
+li{
+    display: inline-block;
+}
+
+/* モバイルのCSS */
+@media screen and (max-width: 480px) {
+  .card {
+    width: auto; /* 横幅 */
+  }
+}
