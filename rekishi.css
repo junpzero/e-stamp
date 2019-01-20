@@ -72,6 +72,14 @@ vertical-align: middle;
     padding: 10px;
 }
 
+.youtube{
+    text-align: center;
+}
+
+.youtube iframe{
+  width: 90%;
+}
+
 /* モバイルのCSS */
 @media screen and (max-width: 480px) {
   .card {
